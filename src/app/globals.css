@@ -1,0 +1,133 @@
+/* @layer tailwind-base, primereact, tailwind-utilities; */
+
+/* IMPORTANT: In "styled" mode you must add the PrimeReact Theme here. Do NOT include in "unstyled" mode */
+/* @import 'primereact/resources/themes/lara-light-blue/theme.css' layer(primereact);
+
+@import 'primeicons/primeicons.css'; */
+        
+
+/* @layer tailwind-base { */
+  @tailwind base;
+/* } */
+
+/* @layer tailwind-utilities { */
+  @tailwind components;
+  @tailwind utilities;
+/* } */
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+.swal2-container{
+  z-index: 10000 !important;
+}
+
+.p-multiselect-label-container{
+  align-items: center;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.no-selected {
+  filter: brightness(0) saturate(100%) invert(81%) sepia(23%)
+    saturate(7154%) hue-rotate(189deg) brightness(90%) contrast(98%);
+}
+
+.selected {
+  filter: brightness(0) saturate(100%) invert(17%) sepia(16%)
+    saturate(2344%) hue-rotate(170deg) brightness(95%) contrast(86%);
+  stroke: white;
+}
+
+path {
+  cursor: pointer;
+}
+
+#city_name {
+  font-size: 20px;
+  color: #1e3a58;
+  border-bottom: 1px solid #1e3a58;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.default-city {
+  fill: #1e3a58;
+  transition: fill 0.3s ease-in-out;
+}
+
+.default-city:hover {
+  fill: #ecc27d;
+  cursor: pointer;
+}
+
+.selected-city {
+  fill: #ecc27d;
+}
+
+.non-clickable-city {
+  fill: #4b5563;
+  cursor: not-allowed;
+}
+
+/*  responsive custom lista de propiedades */
+@media screen and (min-width: 1135px) {
+  .responsive-filter {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1134px) {
+  .responsive-filter-buttons {
+    display: block;
+  }
+}
+
+/* responsive card property */
+@media screen and (max-width: 1445px) {
+  .responsive-card-property {
+    flex-direction: column !important;
+    align-items: start !important;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .responsive_grid_images_detail_property {
+    grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+  }
+}
+@media screen and (min-width: 1101px) {
+  .responsive_grid_images_detail_property_div2 {
+    display: grid !important;
+  }
+}
+ /* responsive contract type home page */
+@media screen and (max-width: 960px) {
+  .responsive-contract-type {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
