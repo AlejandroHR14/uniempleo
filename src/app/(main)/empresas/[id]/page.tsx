@@ -1,6 +1,6 @@
 import CompanyDetails from "@/components/empresas/EmpresaDetail";
 
-export const runtime = "edge";
+// export const runtime = "edge";
 
 interface Props {
   params: { id: number };

@@ -46,10 +46,10 @@ const CompanyDetails = ({ companyId }: any) => {
                             <p>Carrera :</p>
                             <p className="font-semibold">{empresa?.career}</p>
                         </div>
-                        <div className="grid md:grid-cols-2">
+                        {/* <div className="grid md:grid-cols-2">
                             <p>Vacantes :</p>
                             <p className="font-semibold">{empresa?.availablePositions}</p>
-                        </div>
+                        </div> */}
 
                     </div>
                     <div className="flex flex-col gap-3">
@@ -63,17 +63,17 @@ const CompanyDetails = ({ companyId }: any) => {
                                 {empresa?.requirements.join(", ")}
                             </p>
                         </div>
-                        <div className="grid md:grid-cols-2">
+                        {/* <div className="grid md:grid-cols-2">
                             <p>Stipend :</p>
                             <p className="font-semibold">{empresa?.stipend}</p>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
 
                 <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
 
                 <h5 className="text-xl font-bold tracking-tight text-gray-900 mb-3">
-                    Puestos Disponibles
+                    Puestos Disponibles: {empresa?.availablePositions}
                 </h5>
                 <div className="grid md:grid-cols-2 gap-3">
                     {empresa?.positionsOffered.map((position: any, index: any) => (
@@ -101,6 +101,12 @@ const CompanyDetails = ({ companyId }: any) => {
                                 <p>Horario :</p>
                                 <p className="font-semibold">{position.schedule}</p>
                             </div>
+                            {/* buton para postular */}
+                            <button
+                                className="bg-blue-500 text-white rounded-md px-4 py-2 mt-2"
+                            >
+                                Postular
+                            </button>
                         </div>
                     ))}
                 </div>

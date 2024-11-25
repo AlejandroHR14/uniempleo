@@ -38,22 +38,22 @@ export function EmpresasProvider(
             "availablePositions": 3,
             "requirements": ["Conocimientos en JavaScript y Node.js", "Bases de datos MySQL"],
             "contactEmail": "hr@techsolutionssc.com",
-            "stipend": "150 USD/mes",
+            "stipend": "150 BS/mes",
             "companyLogo": "/images/techsolutions.jpeg",
             "positionsOffered": [
                 {
                     "title": "Desarrollador Frontend",
                     "description": "Implementación de interfaces web interactivas utilizando React y TailwindCSS.",
                     "requirements": ["Experiencia con React", "Conocimientos básicos de CSS y diseño responsivo"],
-                    "salary": "150 USD/mes",
-                    "schedule": "Part-time"
+                    "salary": "150 BS/mes",
+                    "schedule": "Medio tiempo"
                 },
                 {
                     "title": "Administrador de Bases de Datos",
                     "description": "Gestión y mantenimiento de bases de datos MySQL para sistemas internos.",
                     "requirements": ["Conocimientos avanzados en MySQL", "Capacidad para optimizar consultas"],
-                    "salary": "150 USD/mes",
-                    "schedule": "Part-time"
+                    "salary": "150 BS/mes",
+                    "schedule": "Medio tiempo"
                 }
             ]
         },
@@ -66,15 +66,15 @@ export function EmpresasProvider(
             "availablePositions": 2,
             "requirements": ["Habilidades en diseño gráfico", "Conocimiento en herramientas como Canva o Photoshop"],
             "contactEmail": "talento@creativemindslp.com",
-            "stipend": "120 USD/mes",
+            "stipend": "120 BS/mes",
             "companyLogo": "/images/creativeminds.jpeg",
             "positionsOffered": [
                 {
                     "title": "Community Manager",
                     "description": "Gestión de redes sociales y publicaciones.",
                     "requirements": ["Conocimiento de herramientas de gestión de redes sociales", "Creatividad"],
-                    "salary": "120 USD/mes",
-                    "schedule": "Part-time"
+                    "salary": "120 BS/mes",
+                    "schedule": "Medio tiempo"
                 }
             ]
         },
@@ -95,7 +95,7 @@ export function EmpresasProvider(
                     "description": "Apoyo en la gestión de documentos y planificación estratégica.",
                     "requirements": ["Manejo avanzado de Excel", "Organización"],
                     "salary": "No remunerado",
-                    "schedule": "Part-time"
+                    "schedule": "Medio tiempo"
                 }
             ]
         },
@@ -108,15 +108,15 @@ export function EmpresasProvider(
             "availablePositions": 4,
             "requirements": ["Manejo de herramientas estadísticas", "Capacidad de análisis"],
             "contactEmail": "rrhh@innovatelp.com",
-            "stipend": "200 USD/mes",
+            "stipend": "200 BS/mes",
             "companyLogo": "/images/comercialinnovate.png",
             "positionsOffered": [
                 {
                     "title": "Analista de Mercado",
                     "description": "Realización de análisis estadísticos y tendencias.",
                     "requirements": ["Conocimiento en Excel avanzado", "Interpretación de datos"],
-                    "salary": "200 USD/mes",
-                    "schedule": "Part-time"
+                    "salary": "200 BS/mes",
+                    "schedule": "Medio tiempo"
                 }
             ]
         },
@@ -129,15 +129,15 @@ export function EmpresasProvider(
             "availablePositions": 2,
             "requirements": ["Creatividad", "Conocimientos básicos de edición de video"],
             "contactEmail": "careers@smboostsc.com",
-            "stipend": "100 USD/mes",
+            "stipend": "100 BS/mes",
             "companyLogo": "/images/socialmediaboost.jpg",
             "positionsOffered": [
                 {
                     "title": "Editor de Contenido",
                     "description": "Creación de contenido visual y edición básica de video.",
                     "requirements": ["Conocimientos en herramientas de edición", "Creatividad"],
-                    "salary": "100 USD/mes",
-                    "schedule": "Part-time"
+                    "salary": "100 BS/mes",
+                    "schedule": "Medio tiempo"
                 }
             ]
         },
@@ -150,15 +150,15 @@ export function EmpresasProvider(
             "availablePositions": 3,
             "requirements": ["Experiencia con lenguajes de programación como Java o Python"],
             "contactEmail": "jobs@codefactorylp.com",
-            "stipend": "250 USD/mes",
+            "stipend": "250 BS/mes",
             "companyLogo": "/images/codefactory.png",
             "positionsOffered": [
                 {
                     "title": "QA Tester",
                     "description": "Pruebas de calidad y documentación.",
                     "requirements": ["Conocimientos en herramientas de testing", "Precisión en el trabajo"],
-                    "salary": "250 USD/mes",
-                    "schedule": "Part-time"
+                    "salary": "250 BS/mes",
+                    "schedule": "Medio tiempo"
                 }
             ]
         },
@@ -179,7 +179,7 @@ export function EmpresasProvider(
                     "description": "Elaboración de reportes y soporte administrativo.",
                     "requirements": ["Buen manejo de herramientas de Office", "Organización"],
                     "salary": "No remunerado",
-                    "schedule": "Part-time"
+                    "schedule": "Medio tiempo"
                 }
             ]
         },
@@ -192,15 +192,15 @@ export function EmpresasProvider(
             "availablePositions": 2,
             "requirements": ["Habilidad en Excel y Power BI", "Buen manejo de inglés"],
             "contactEmail": "info@marketanalyticslp.com",
-            "stipend": "180 USD/mes",
+            "stipend": "180 BS/mes",
             "companyLogo": "/images/Marketanalytics.png",
             "positionsOffered": [
                 {
                     "title": "Analista Junior",
                     "description": "Creación de reportes y análisis de datos comerciales.",
                     "requirements": ["Excel avanzado", "Power BI"],
-                    "salary": "180 USD/mes",
-                    "schedule": "Part-time"
+                    "salary": "180 BS/mes",
+                    "schedule": "Medio tiempo"
                 }
             ]
         },
@@ -213,15 +213,15 @@ export function EmpresasProvider(
             "availablePositions": 3,
             "requirements": ["Capacidad creativa", "Conocimientos en marketing digital"],
             "contactEmail": "jobs@brandbuilderssc.com",
-            "stipend": "150 USD/mes",
+            "stipend": "150 BS/mes",
             "companyLogo": "/images/BrandBuilders.jpeg",
             "positionsOffered": [
                 {
                     "title": "Especialista en Branding",
                     "description": "Diseño de estrategias publicitarias.",
                     "requirements": ["Creatividad", "Herramientas de diseño gráfico"],
-                    "salary": "150 USD/mes",
-                    "schedule": "Part-time"
+                    "salary": "150 BS/mes",
+                    "schedule": "Medio tiempo"
                 }
             ]
         },
@@ -234,15 +234,15 @@ export function EmpresasProvider(
             "availablePositions": 2,
             "requirements": ["Experiencia en desarrollo móvil (Android/iOS)", "Conocimientos en REST APIs"],
             "contactEmail": "innovators@techlp.com",
-            "stipend": "300 USD/mes",
+            "stipend": "300 BS/mes",
             "companyLogo": "/images/TechInnovators.jpeg",
             "positionsOffered": [
                 {
                     "title": "Desarrollador de Apps Móviles",
                     "description": "Desarrollo y mantenimiento de aplicaciones móviles.",
                     "requirements": ["Experiencia en Android/iOS", "Conocimiento de APIs REST"],
-                    "salary": "300 USD/mes",
-                    "schedule": "Part-time"
+                    "salary": "300 BS/mes",
+                    "schedule": "Medio tiempo"
                 }
             ]
         }
